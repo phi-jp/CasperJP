@@ -9,6 +9,10 @@ body {
 	height: 40%;
 }
 
+.post {
+	-webkit-animation: fade-in-side 0.6s;
+}
+
 .page-title a {
 	color: white;
 	text-decoration: none;
@@ -24,6 +28,10 @@ body {
 	margin-bottom: 1.0rem;
 	padding-bottom: 0.5rem;
 	border-bottom: 1px dotted #aaa;
+}
+
+.post-content h3 {
+	font-size: 2.5rem;
 }
 
 code {
@@ -42,4 +50,31 @@ pre {
 
 code.hljs {
 	padding: 10px;
+}
+
+
+/* animation */
+@-webkit-keyframes fade-in-side {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes fade-in-down {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }
