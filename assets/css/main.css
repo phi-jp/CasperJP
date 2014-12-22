@@ -1,0 +1,15 @@
+
+body {
+	font-family: "Helvetica Neue",Helvetica,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5em;
+}
+
+.main-header {
+	height: 40%;
+}
+
+/* for highlight.js */
+.hljs-keyword, .hljs-literal, .css .hljs-id, .hljs-phpdoc, .hljs-dartdoc, .hljs-title, .hljs-header, .hljs-type, .vbscript .hljs-built_in, .rsl .hljs-built_in, .smalltalk .hljs-class, .diff .hljs-header, .hljs-chunk, .hljs-winutils, .bash .hljs-variable, .apache .hljs-tag, .tex .hljs-special, .hljs-request, .hljs-status {
+	font-weight: normal;
+}

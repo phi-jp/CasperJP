@@ -18,6 +18,17 @@
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/monokai.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>
+    window.addEventListener("DOMContentLoaded", function() {
+        hljs.initHighlightingOnLoad();
+    }, false)
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="{{asset "css/main.css"}}" />
+
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
 </head>
