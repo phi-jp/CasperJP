@@ -9,7 +9,37 @@ body {
 	height: 40%;
 }
 
+.page-title a {
+	color: white;
+	text-decoration: none;
+}
+
+.post-title {
+	font-size: 3.6rem;
+}
+
+.post-content h2 {
+	font-size: 3.0rem;
+	margin-top: 2.0em;
+	margin-bottom: 1.0rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px dotted #aaa;
+}
+
+code {
+	font-size: 1.0em;
+}
+
 /* for highlight.js */
 .hljs-keyword, .hljs-literal, .css .hljs-id, .hljs-phpdoc, .hljs-dartdoc, .hljs-title, .hljs-header, .hljs-type, .vbscript .hljs-built_in, .rsl .hljs-built_in, .smalltalk .hljs-class, .diff .hljs-header, .hljs-chunk, .hljs-winutils, .bash .hljs-variable, .apache .hljs-tag, .tex .hljs-special, .hljs-request, .hljs-status {
 	font-weight: normal;
+}
+
+pre {
+	padding: 0px;
+	line-height: 1.2em;
+}
+
+code.hljs {
+	padding: 10px;
 }
