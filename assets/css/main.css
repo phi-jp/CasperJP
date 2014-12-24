@@ -9,6 +9,19 @@ body {
 	height: 40%;
 }
 
+.main-header h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+.home-template .page-title {
+    -webkit-animation: none;
+    animation: none;
+}
+.home-template .page-description {
+    -webkit-animation: none;
+    animation: none;
+}
+
 .post {
 	-webkit-animation: fade-in-side 0.6s;
 }
