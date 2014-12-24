@@ -58,6 +58,13 @@ code {
 	font-size: 1.0em;
 }
 
+@media only screen and (max-width: 500px) {
+	body:not(.post-template) .post-title {
+	    font-size: 2.5rem;
+	}
+}
+
+
 /* for highlight.js */
 .hljs-keyword, .hljs-literal, .css .hljs-id, .hljs-phpdoc, .hljs-dartdoc, .hljs-title, .hljs-header, .hljs-type, .vbscript .hljs-built_in, .rsl .hljs-built_in, .smalltalk .hljs-class, .diff .hljs-header, .hljs-chunk, .hljs-winutils, .bash .hljs-variable, .apache .hljs-tag, .tex .hljs-special, .hljs-request, .hljs-status {
 	font-weight: normal;
