@@ -1,7 +1,7 @@
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
     	{{#is "home"}}
-	        {{#if @blog.logo}}<a class="blog-logo" href="https://twitter.com/phi_jp"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+	        {{#if @blog.logo}}<a class="blog-logo" href="https://twitter.com/phi_jp" target="_blank"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
     	{{else}}
 	        <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
     	{{/is}}
