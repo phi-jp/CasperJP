@@ -59,7 +59,7 @@ code {
 }
 
 @media only screen and (max-width: 500px) {
-	body:not(.post-template) .post-title {
+	.post-title {
 	    font-size: 2.5rem;
 	}
 }
