@@ -1,0 +1,12 @@
+
+<script type="text/javascript" src="http://rawgit.com/i11ume/ghostHunter/master/jquery.ghostHunter.min.js"></script>
+<form style="text-align:center">
+    <input id="search-field" />
+    <input type="submit" value="search">
+</form>
+<section id="results" style="text-align:center"></section>
+<script>
+    $("#search-field").ghostHunter({
+        results   : "#results"
+    });
+</script>

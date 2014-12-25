@@ -54,6 +54,11 @@ body {
 	background: #aaa;
 }
 
+.post-content .full-img {
+	width: 100%;
+	margin: 0;
+}
+
 code {
 	font-size: 1.0em;
 }
