@@ -19,7 +19,7 @@
 		// mario
 		setTimeout(function() {
 			Mario();
-		}, 2000);
+		}, 100);
 	});
 
 	/*
