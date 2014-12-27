@@ -95,6 +95,8 @@ pre {
 
 code.hljs {
 	padding: 10px;
+	font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+	font-size: 0.85em;
 }
 
 
