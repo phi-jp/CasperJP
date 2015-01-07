@@ -35,8 +35,8 @@
 
 		// player
 	    Mario.Player({
-	        x: window.innerWidth-215,
-	        y: window.innerHeight-140,
+	        x: window.innerWidth-215*scale,
+	        y: window.innerHeight-140*scale,
 	        scale: scale,
 	        direction: "left",
 	        floorHeight: 20
