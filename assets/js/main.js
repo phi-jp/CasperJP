@@ -22,11 +22,6 @@
 		// mario
 		setTimeout(function() {
 			setupMario()
-			// Mario({
-   //              x: 20,
-   //              scale: (window.innerWidth <= 500) ? 2:4,
-   //              floorHeight: 20,
-   //          });
 		}, 100);
 	});
 
@@ -49,11 +44,12 @@
 	    var blockSize = 48*scale;
 	    var step = blockSize*1.2;
 
-	    Mario.RssBlock({
+	    Mario.FeedlyBlock({
 	        x: blockX,
 	        y: blockY,
 	        width: blockSize,
 	        height: blockSize,
+	        link: "http://tmlife.io/rss",
 	    });
 
 	    Mario.PocketBlock({
