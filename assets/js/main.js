@@ -4,7 +4,10 @@
 
 ;(function() {
 
-	window.addEventListener("load", function() {
+	window.addEventListener('DOMContentLoaded', function() {
+		// 目次を設定
+		setupTOC();
+
 		// shortcut
 		document.addEventListener("keydown", function(e) {
 			var c = String.fromCharCode(e.keyCode);
@@ -78,6 +81,30 @@
 	        // link: "http://tmlife.io",
 	    });
 
+	};
+
+	// 目次を設定
+	var setupTOC = function() {
+		var tocElement = document.getElementById('toc');
+		if (!tocElement) return ;
+
+		var parent = tocElement.parentNode;
+		var items = parent.getElementsByTagName('h2');
+		var list = document.createElement('ul');
+		tocElement.appendChild(list);
+
+		Array.prototype.forEach.call(items, function(item, i) {
+			var li = document.createElement('li');
+			list.appendChild(li);
+			var anchor = document.createElement('a');
+			li.appendChild(anchor);
+			anchor.innerHTML = item.innerHTML;
+
+			item.id = 'h2-header-id-' + i;
+			anchor.href = '#' + item.id;
+		});
+
+		console.dir(items);
 	};
 
 })();
